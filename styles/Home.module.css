@@ -1,0 +1,64 @@
+.container {
+}
+
+.header {
+  display: flex;
+  background-color: #0077c0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo {
+  padding-left: 50px;
+  color: #ffffff;
+  font-size: 23px;
+  font-family: Arial;
+  font-width: bold;
+}
+
+.suggest {
+  margin: auto;
+}
+.suggest > input {
+  width: 500px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  user-select: none;
+  outline: none;
+}
+
+
+.main {
+}
+
+.card {
+  color: #ffffff;
+  display: flex;
+}
+
+.info {
+  display: block;
+}
+.fact {
+  display: block;
+}
+.temp {
+  font-size: 5em;
+}
+.city {
+  font-size: 35px;
+}
+.now_dt {
+  font-size: 13px;
+  color: #d2cece;
+}
+.fact {
+  font-size: 20px;
+}
+.icon {
+  transform: scale(3);
+}
+.condition {
+  color: #d2cece;
+}
